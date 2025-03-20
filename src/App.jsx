@@ -11,6 +11,7 @@ import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
 import TabTest from "./components/custom-tabs/tabs-test";
 import ModalTest from "./components/custom-modal/modal-test";
+import GithubProfileFinder from "./components/gh-profile-finder";
 
 function App() {
   return (
@@ -50,7 +51,10 @@ function App() {
       {/* <TabTest/> */}
 
       {/* Modals */}
-      <ModalTest/>
+      {/* <ModalTest/> */}
+
+      {/* Buscador de Usuarios de Github */}
+      <GithubProfileFinder/>
     </div>
   );
 }
